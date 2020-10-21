@@ -1,0 +1,3 @@
+include ':inpainting'
+include ':app'
+rootProject.name = "androidInpainting"
