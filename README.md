@@ -1,5 +1,5 @@
 # androidInpainting
----
+--------------
 [![](https://jitpack.io/v/jongwonleee/androidInpainting.svg)](https://jitpack.io/#jongwonleee/androidInpainting) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
 This will fill the empty space of mask when you excute the library. This object uses patch-match algorithm to inpaint the image, it takes 20 secs to 5 minutes depends on the size of the image. 
