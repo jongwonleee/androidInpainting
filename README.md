@@ -10,21 +10,27 @@ refer to [davidchatting](https://github.com/davidchatting/PatchMatch)
 ---
 ### Gradle
 ##### Root build.gradle
-```allprojects {
+```gradle
+allprojects {
     repositories {
          ...
         maven { url 'https://jitpack.io' }
 
     }
-}```
+}
+```
 
 ##### App build.gradle
-```implementation 'com.github.jongwonleee:androidInpainting:Tag```
+```gradle
+implementation 'com.github.jongwonleee:androidInpainting:Tag
+```
 
 
 ---
 ### How To USe
-```val bitmap = Inpaint().inpaint(@original image, @masked image , @calculate radius)```java
+```java
+val bitmap = Inpaint().inpaint(@original image, @masked image , @calculate radius)
+```
 - @original image: a bitmap image you want to get filled
 - @masked image: a bitmap image which contains hole where original image wants to get filled
 - @calculate radius: the smaller the radius, high quality you get, slower the algorithm
