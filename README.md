@@ -4,8 +4,7 @@
 
 This will fill the empty space of mask when you excute the library. This object uses patch-match algorithm to inpaint the image, it takes 20 secs to 5 minutes depends on the size of the image. 
 
-refer to [davidchatting](https://github.com/davidchatting/PatchMatch)
-
+refer to [@davidchatting](https://github.com/davidchatting/PatchMatch)
 
 ---
 ### Gradle
@@ -25,11 +24,10 @@ allprojects {
 implementation 'com.github.jongwonleee:androidInpainting:Tag
 ```
 
-
 ---
 ### How To USe
 ```java
-val bitmap = Inpaint().inpaint(@original image, @masked image , @calculate radius)
+val bitmap = Inpaint().inpaint(@originalImage, @maskedImage , @calculateRadius)
 ```
 - @original image: a bitmap image you want to get filled
 - @masked image: a bitmap image which contains hole where original image wants to get filled
