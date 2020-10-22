@@ -7,6 +7,17 @@ This will fill the empty space of mask when you excute the library. This object 
 refer to [@davidchatting](https://github.com/davidchatting/PatchMatch)
 
 ---
+### Example
+##### Original Image
+![original](/sample/original.jpg)
+
+##### Mask Image
+![mask](/sample/mask.jpg)
+
+##### Result Image
+![result](/sample/result.jpg)
+
+---
 ### Gradle
 ##### Root build.gradle
 ```gradle
