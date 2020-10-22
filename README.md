@@ -32,7 +32,7 @@ allprojects {
 
 ##### App build.gradle
 ```gradle
-implementation 'com.github.jongwonleee:androidInpainting:Tag
+implementation 'com.github.jongwonleee:androidInpainting:0.10.2
 ```
 
 ---
